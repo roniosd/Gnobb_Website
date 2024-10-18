@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GNOBB Website Page 1</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="img/play_icon.png" type="image/png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="top-header">
+      <div class="container">
+        <div class="row align-items-center">
+          <div
+            class="col-12 col-lg d-flex justify-content-center justify-content-lg-end mb-2 mb-lg-0"
+          >
+            <span class="me-3 phone">+880 1521 326 387</span>
+          </div>
+          <div
+            class="col-12 col-lg-auto d-flex justify-content-center mb-2 mb-lg-0"
+          >
+            <a
+              href="contact.html"
+              class="text-decoration-none text-dark contact me-3"
+            >
+              Contact Us
+            </a>
+          </div>
+          <div
+            class="col-12 col-lg-auto d-flex justify-content-center mb-2 mb-lg-0"
+          >
+            <div class="select_box me-3">
+              <select class="selects" aria-label="Language selection">
+                <option value="en">English</option>
+                <option value="bn">Bangla</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-12 col-lg-auto d-flex justify-content-center">
+            <a href="#" aria-label="Search" class="text-dark">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <header class="navbar navbar-expand-lg navbar-light border-bottom">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="img/logo.png" alt="GNOBB Logo" height="47" width="171" />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="about_gnobb.html"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                About Us
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="about_gnobb.html"
+                    >About GNOBB</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="founder.html"
+                    >Founder Member</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="about.html">GNOBB Committee</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Members
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="gnobb_membership.html"
+                    >About Membership</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="member_registation.html"
+                    >Member Registration</a
+                  >
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                News & Events
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="news.html">News</a></li>
+                <li><a class="dropdown-item" href="#">Events</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="award.html"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                GNOBB Awards
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="award.html"
+                    >GNOBB Awards-2021</a
+                  >
+                </li>
+                <li><a class="dropdown-item" href="#">GNOBB Awards-2019</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" href="ichba.html">5th ICHBA 2023</a>
+            </li>
+
+            <li class="nav-item last_nav">
+              <a
+                href="member_registation.html"
+                class="btn nav_btn btn-success d-flex align-items-center"
+              >
+                Sign Up <img src="img/araw.svg" alt="Arrow Icon" class="ms-2" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <section style="width: 100%" class="ichba_top">
+      <img width="100%" src="img/ichba.png" alt="" />
+      <h1>6th ICHBA</h1>
+    </section>
+
+    <section style="width: 100%" class="countdown_box countdown d-flex">
+      <h1>Days Left</h1>
+      <div>
+        <div class="timer_bar" id="days">5</div>
+        <div class="label">DAYS</div>
+        <div class="devider"></div>
+        <div class="innerDot">:</div>
+        <div class="innerDot-2">:</div>
+      </div>
+      <div class="dot"></div>
+      <div>
+        <div class="timer_bar" id="hours">20</div>
+        <div class="label">HOURS</div>
+        <div class="devider"></div>
+        <div class="innerDot">:</div>
+        <div class="innerDot-2">:</div>
+      </div>
+      <div class="dot"></div>
+
+      <div>
+        <div class="timer_bar" id="minutes">12</div>
+        <div class="label">MINUTES</div>
+        <div class="devider"></div>
+        <div class="innerDot">:</div>
+        <div class="innerDot-2">:</div>
+      </div>
+      <div class="dot"></div>
+
+      <div>
+        <div class="timer_bar time_sec" id="seconds">39</div>
+        <div class="label">SECONDS</div>
+        <div class="devider"></div>
+        <div class="innerDot">:</div>
+        <div class="innerDot-2">:</div>
+      </div>
+    </section>
+
+    <section class="winners_gnobb section_p">
+      <h2>Winners of GNOBB award 2024 for scientific achievements</h2>
+      <div class="all d-flex justify-content-between">
+        <h4 class="winners_ditails">
+          GNOBB was born as a web-based organization in 2004 in order to provide
+          a forum for networking of Biotechnologists with origins from
+          Bangladesh. The idea was initiated by Dr. Abidur Rahman and retired
+          Professor of Botany, Dr. Ahmad Shamsul Islam. The website was then
+          launched and coordinated ever since by the latter with oversight from
+          Dr. Abid and rest of the Founder members. The objective of the
+          organization has been to provide information on the scientific
+          activities of Scientists from all over the world, but who are deeply
+          rooted to Bangladesh. The interactive platform allowed member
+          scientists to upload their latest achievements and publications
+          directly on the website. News of the achievements of Bangladeshi
+          scientists as well as important advances and breakthroughs in
+          Biotechnology have been uploaded regularly on the website. GNOBB has
+          already organized 4 international conferences and plans to organize
+          these and other workshops at regular intervals. The intent here is
+          capacity building and creating awareness on the latest trends in
+          Biotechnology for improvements in Health, Agriculture and the
+          Environment.  One of its achievements is the preparation of the
+          Position paper for the Ministry of Science and Technology, People’s
+          Republic of Bangladesh from its 2007 Conference that eventually paved
+          the way towards the creation of the National Institute of
+          Biotechnology (NIB) under the Ministry’s governance. Another of its
+          goals is to honor the outstanding scientists for their achievements.
+        </h4>
+        <div class="more_ditails">
+          <h5><span>Registration</span> Going on</h5>
+          <p>
+            GNOBB was born as a web-based organization in 2004 in order to
+            provide a forum for networking of Biotechnologists
+          </p>
+          <h3>Deadline: 3 Sept 2024</h3>
+          <a href="#" class="btn">Register Now</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="members-section section_p">
+      <h2>Speakers</h2>
+      <div class="members">
+        <div class="member_info">
+          <img src="img/founder-1.png" alt="" />
+          <h4>Dr Ahmad Shamsul Islam</h4>
+        </div>
+        <div class="member_info">
+          <img src="img/founder-2.png" alt="" />
+          <h4>Dr Abidur Rahman</h4>
+        </div>
+        <div class="member_info">
+          <img src="img/founder-3.png" alt="" />
+          <h4>Dr Parvez Haris</h4>
+        </div>
+        <div class="member_info">
+          <img src="img/founder-4.png" alt="" />
+          <h4>Dr Hemayet Ullah</h4>
+        </div>
+        <div class="member_info">
+          <img src="img/founder-5.png" alt="" />
+          <h4>Dr Zeba Islam Seraj</h4>
+        </div>
+        <div class="member_info">
+          <img src="img/founder-6.png" alt="" />
+          <h4>Dr Haseena Khan</h4>
+        </div>
+        <div class="member_info">
+          <img src="img/founder-7.png" alt="" />
+          <h4>Dr Ahmad Abdullah Azad</h4>
+        </div>
+        <div class="member_info">
+          <img src="img/founder-8.png" alt="" />
+          <h4>Dr Enamul Huq</h4>
+        </div>
+      </div>
+    </section>
+
+    <section class="ichba_venue section_p">
+      <h1>ICHBA 2023 Venue</h1>
+      <div class="d-flex all_detialis">
+        <div class="full_detialis">
+          <h2>Nabab Nawab Ali Chowdhury Senate Bhaban</h2>
+          <p>Dhaka University, Dhaka 1205</p>
+          <a href="#" class="btn">Contact Us</a>
+        </div>
+        <img src="img/contact_map.png" alt="" />
+      </div>
+    </section>
+
+    <section class="partners">
+      <h1>Our Partners</h1>
+      <div class="partner d-flex justify-content-between">
+        <img src="img/google.png" alt="" />
+        <img src="img/lotte.png" alt="" />
+        <img src="img/never.png" alt="" />
+        <img src="img/paypal-logo.png" alt="" />
+        <img src="img/bosch.png" alt="" />
+        <img style="width: 262.28px" src="img/tech-crunch.png" alt="" />
+      </div>
+    </section>
+
+    <section class="frequently text-center">
+      <h2>Frequently asked questions</h2>
+      <p>Everything you need to know about the conference.</p>
+      <div class="frequently_box">
+        <button class="accordion accordion-1">
+          What is the International Conference on Biotechnology in Health and
+          Agriculture?
+        </button>
+        <div class="panel">
+          <p>
+            It brings together scientists, researchers, and professionals from
+            around the world to discuss recent advancements and future
+            directions in biotechnology as it pertains to health and
+            agriculture.
+          </p>
+        </div>
+      </div>
+
+      <div class="frequently_box">
+        <button class="accordion">
+          When and where is the conference held?
+        </button>
+        <div class="panel">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+        </div>
+      </div>
+
+      <div class="frequently_box">
+        <button class="accordion">Who can attend the conference?</button>
+        <div class="panel">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+        </div>
+      </div>
+
+      <div class="frequently_box">
+        <button class="accordion">
+          How can I register for the conference?
+        </button>
+        <div class="panel">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+        </div>
+      </div>
+
+      <div class="frequently_box">
+        <button class="accordion">
+          What are the benefits of attending the conference?
+        </button>
+        <div class="panel">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+        </div>
+      </div>
+
+      <div class="frequently_box">
+        <button class="accordion">
+          Is there financial support available for attendees?
+        </button>
+        <div class="panel">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section_p" style="padding-bottom: 53px">
+      <div class="Committee">
+        <h1 class="text-center">Quick Links</h1>
+        <div class="box_icon m-0">
+          <a href="#" class="btn">
+            Biotechnology
+            <img src="img/Vector.png" width="12" height="20" alt="" />
+          </a>
+          <a href="#" class="btn"
+            >Crop Improvement
+            <img src="img/Vector.png" width="12" height="20" alt="" />
+          </a>
+          <a href="#" class="btn"
+            >Health & diagnostics
+            <img src="img/Vector.png" width="12" height="20" alt="" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section_p register_banner">
+      <div
+        class="register_banner_img"
+        style="
+          background-image: linear-gradient(
+              70.01deg,
+              rgba(127, 196, 28, 0.27) 40.58%,
+              rgba(90, 185, 84, 0.99) 51.45%,
+              #7fc41c 71.32%
+            ),
+            url(img/Registration_bannaar.png);
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+        "
+      >
+        <div class="items_1">
+          <h1><span>Registration</span> Going on</h1>
+          <p>
+            GNOBB was born as a web-based organization in 2004<br />
+            in order to provide a forum for networking of Biotechnologists
+          </p>
+        </div>
+        <div class="col-md-6 item-2">
+          <div class="position-relative re_hover_img">
+            <img class="img-1" src="img/about_gb-1.png" alt="Image 1" />
+            <img class="img-2" src="img/about_gb-2.png" alt="Image 2" />
+            <img class="img-3" src="img/about_gb-3.png" alt="Image 3" />
+          </div>
+          <div class="d-flex align-items-center justify-content-center">
+            <p class="text-center">Deadline: 3 Sept 2024</p>
+            <a href="contact.html" class="btn">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="d-flex justify-content-between footer_box section_p">
+        <div class="cal d-flex flex-column">
+          <h4>About GNOBB</h4>
+          <a href="index.html">Home</a>
+          <a href="about.html">About GNOBB</a>
+          <a href="gnobb_membership.html">Members</a>
+          <a href="member_registation.html">Member Registration</a>
+          <a href="news.html">News</a>
+          <a href="#">Archive</a>
+        </div>
+
+        <div class="cal d-flex flex-column">
+          <h4>Conferences</h4>
+          <a href="ichba.html">1st ICHBA 2019</a>
+          <a href="#">2nd ICHBA 2020</a>
+          <a href="#">3rd ICHBA 2021</a>
+          <a href="#">4th ICHBA 2022</a>
+          <a href="#">5th ICHBA 2023</a>
+        </div>
+
+        <div class="cal d-flex flex-column">
+          <h4>Help & Information</h4>
+          <div class="d-flex flex-column">
+            <a href="#">Technical Support</a>
+            <a href="#">GNOBB Community</a>
+            <a href="#">Students</a>
+          </div>
+          <div class="d-flex flex-column mt-2">
+            <p>Global Network of</p>
+            <p>Bangladeshi Biotechnologists</p>
+            <p>Dhaka University</p>
+            <p>Contact@GNOBB.org</p>
+          </div>
+        </div>
+
+        <div class="cal d-flex flex-column">
+          <div class="footer_img_box">
+            <a class="navbar-brand" href="#">
+              <img
+                src="img/footer-logo.png"
+                alt="GNOBB Logo"
+                height="60"
+                width="228"
+              />
+            </a>
+          </div>
+
+          <div class="social">
+            <img src="img/social.png" alt="" />
+          </div>
+
+          <p class="text-sub">Subscribe to avail our special updates</p>
+          <div
+            class="d-flex form_box justify-content-center align-items-center"
+          >
+            <input type="text" placeholder="*Type your email address..." />
+            <a
+              class="btn btn-success d-flex align-items-center justify-content-center"
+              href="#"
+            >
+              <i class="fa-solid fa-bell"></i> Get Updates
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="copyrite_box d-flex justify-content-start section_p">
+        <p>Terms & Conditions</p>
+        <p>Privacy</p>
+        <p>Cookies</p>
+        <p>&copy; 2017, GNOBB. All rights reserved</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
