@@ -873,7 +873,7 @@
 /*========= Bannar Section ============ */
 
 .about_hero {
-  width: 1920px;
+  width: 100%;
   height: 191px;
   gap: 0px;
   opacity: 0px;
@@ -1148,7 +1148,7 @@
   line-height: normal;
 }
 .news_boxs {
-  width: 1920px;
+  width: 100%;
   height: 1545px;
 }
 .bottom_bar {
@@ -1408,7 +1408,7 @@
 }
 
 .award_boxss {
-  width: 1140px;
+  width: 100%;
   height: 450px;
   border-radius: 16px;
   border: 1px solid #d9dfe4;
@@ -1452,7 +1452,6 @@
 .social_med {
   margin-top: -30px;
   margin-bottom: 329px;
-  margin-right: -25px;
 }
 .social_med a img {
   width: 224px;
